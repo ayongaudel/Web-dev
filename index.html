@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -13,27 +12,28 @@
 
     <!-- HEADER -->
     <header>
+        <div class="header-container">
 
-        <img src="images/logo.png" alt="Prashamsa Logo" width="100" height="100">
+            <img src="images/logo.png" alt="Prashamsa Logo" width="100" height="100">
 
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#MyProjects">Projects</a></li>
-                <li><a href="#MySkills">Skills</a></li>
-                <li><a href="#ContactMe">Contact Me</a></li>
-                <li><a href="#form">Form</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#FindMeOn">Find Me On</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#MyProjects">Projects</a></li>
+                    <li><a href="#MySkills">Skills</a></li>
+                    <li><a href="#ContactMe">Contact Me</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#FindMeOn">Find Me On</a></li>
+                </ul>
+            </nav>
 
-        <form>
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
-        </form>
+            <form>
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
 
+        </div>
     </header>
 
 
@@ -45,15 +45,14 @@
 
                 <h1>About Me</h1>
 
-                <div class="about-content"
-                    style="display: flex; justify-content: space-between; align-items: center;gap: 50px;">
+                <div class="about-content">
 
                     <img src="images/photo.jpeg" alt="My Photo" width="200" height="200">
 
                     <p>
-                        Hello! My name is Prashamsa.I am currently studying BIT at Model Institute of Technology. I am a
-                        software developer who enjoys learning new technologies, creating websites, and exploring
-                        creative ideas.
+                        Hello! My name is Prashamsa.I am currently studying BIT(Bachelors of Information Technology) at
+                        Model Institute of Technology. I am a software developer who enjoys learning new technologies,
+                        creating websites, and exploring creative ideas.
                     </p>
 
                 </div>
@@ -72,10 +71,13 @@
                     <h3>E-commerce Site</h3>
 
                     <p>
-                        I create modern and user-friendly e-commerce websites with clean product
-                        displays, smooth navigation, and simple designs, focusing on making online
-                        shopping easy, engaging, and enjoyable.
+                        I developed an e-commerce website designed to provide a simple and user-friendly
+                        online shopping experience. The website includes product displays, organized
+                        categories, smooth navigation, and essential features that make it easier for
+                        users to explore products and make purchasing decisions.
                     </p>
+
+                    <a href="https://github.com/" target="_blank">Click here to View Project</a>
 
                 </article>
 
@@ -85,9 +87,13 @@
                     <h3>Inventory Management System</h3>
 
                     <p>
-                        I create efficient inventory management systems that help organize products,
-                        track stock, manage records, and simplify daily inventory operations.
+                        I developed an inventory management system to help businesses organize and manage
+                        their products efficiently. The system focuses on tracking available stock,
+                        maintaining product records, updating inventory information, and simplifying
+                        everyday inventory management tasks.
                     </p>
+
+                    <a href="https://github.com/" target="_blank">Click here to View Project</a>
 
                 </article>
 
@@ -100,21 +106,33 @@
 
                 <h2>My Skills</h2>
 
-                <dl>
+                <div class="skills-content">
 
-                    <dt>Programming Languages</dt>
-                    <dd>Java, Python, C++, JS</dd>
+                    <dl>
 
-                    <dt>Database</dt>
-                    <dd>MySQL, MongoDB, Oracle, PostgreSQL</dd>
+                        <div class="skill-box">
+                            <dt>Programming Languages</dt>
+                            <dd>Java, Python, C++, JS</dd>
+                        </div>
 
-                    <dt>Tools</dt>
-                    <dd>MS Word, PowerPoint, Excel, Visual Studio Code, IntelliJ</dd>
+                        <div class="skill-box">
+                            <dt>Database</dt>
+                            <dd>MySQL, MongoDB, Oracle, PostgreSQL</dd>
+                        </div>
 
-                    <dt>Frameworks</dt>
-                    <dd>.NET, Spring Boot, Angular, Django, Flask</dd>
+                        <div class="skill-box">
+                            <dt>Tools</dt>
+                            <dd>MS Word, PowerPoint, Excel, Visual Studio Code, IntelliJ</dd>
+                        </div>
 
-                </dl>
+                        <div class="skill-box">
+                            <dt>Frameworks</dt>
+                            <dd>.NET, Spring Boot, Angular, Django, Flask</dd>
+                        </div>
+
+                    </dl>
+
+                </div>
 
             </div>
         </section>
@@ -123,12 +141,11 @@
         <section id="Education">
             <div class="education-container">
 
-                <h1>Education</h1>
+                <h2>Education</h2>
 
                 <table>
 
                     <thead>
-
                         <tr>
                             <th>S.N.</th>
                             <th>Level</th>
@@ -136,7 +153,6 @@
                             <th>GPA</th>
                             <th>Grade</th>
                         </tr>
-
                     </thead>
 
                     <tbody>
@@ -169,15 +185,6 @@
             <div class="contact-container">
 
                 <h2>Contact Me</h2>
-
-            </div>
-        </section>
-
-
-        <section id="form">
-            <div class="form-container">
-
-                <h2>Contact Form</h2>
 
                 <form>
 
